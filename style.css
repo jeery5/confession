@@ -1,0 +1,495 @@
+.NameHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    padding: 1rem;
+    color: white;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    z-index: 100;
+}
+.NameHeader > p > a {
+    font-size: 13px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+.HeaderDesc {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+.pro {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    background: -webkit-linear-gradient(0deg,#be22ff 20%,#ff279c 50%,#ff981f 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.frontdesc {
+    font-size: 60px;
+    font-weight: 600;
+    color: #ACACAC;
+    text-align: center;
+    top: 100px;
+    line-height: 1.5;
+    position: relative;
+    display: inline;
+    margin: 0;
+    opacity: 0;
+}
+
+h1 {
+    color: white;
+    top: 250px;
+    left: 300px;
+    font-size: 5em;
+    letter-spacing: -3px;
+    position: absolute;
+    animation: slidefade 1s ease-out;
+}
+.globe {
+    height: 1000px; 
+    width: 100%; 
+    top: 0; 
+    position: absolute;
+    animation: fadedown 1s ease-out;
+    opacity: 0.1;
+}
+.Desc {
+    top: 200px;
+    height: 3500px;
+    position: relative;
+    background-color: #232323;
+}
+.Todo {
+    display: inline-block;
+    width: 1025px;
+    height: 600px;
+    background-color: #353535;
+    border-radius: 35px;
+    margin-left: 100px;
+    margin-right: 25px;
+    margin-top: 200px;
+    background: linear-gradient(200deg,#8300AA, #2B19AA);
+    overflow: hidden;
+    opacity: 0;
+} 
+.mac {
+    animation: macin 1s ease-out;
+}
+.TaskHead {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    position: relative; left: 50px; top: 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    
+}
+.Task {
+    font-size: 80px;
+    font-weight: 1000;
+    color: white;
+    position: relative; left: 50px; top: 20px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.TaskSmall {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative; left: 50px; top: 80px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.hacking {
+    width: 250px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    border-radius: 35px;
+    overflow: hidden;
+    opacity: 0;
+}
+.locking1 {
+    width: 250px;
+    height: 250px;
+    top: 25px;
+    left: 100px;
+    margin-right: 25px;
+    display: block;
+    position: relative;
+    background-color: white;
+    border-radius: 35px;
+    overflow: hidden;
+    opacity: 0;
+}
+.locking2 {
+    width: 250px;
+    height: 325px;
+    left: 100px;
+    top: -250px;
+    margin-right: 25px;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border-radius: 35px;
+    overflow: hidden;
+    opacity: 0;
+}
+.locking3 {
+    width: 575px;
+    height: 1100px;
+    left: 825px;
+    top: -1325px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    background-color: #363636;
+    border-radius: 35px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.Knowledge {
+    top: -250px;
+    left: 100px;
+    position: relative;
+    display: inline-block;
+    width: 1025px;
+    height: 600px;
+    background-color: #353535;
+    border-radius: 35px;
+    margin-top: 25px;
+    background: linear-gradient(45deg,black, #373A63);
+    overflow: hidden;
+    opacity: 0;
+}
+.KnowledgeHead {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    position: relative; left: 50px; top: 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.KnowledgeMiddle {
+    font-size: 80px;
+    font-weight: 1000;
+    color: #A8A8A8;
+    position: relative; left: 50px; top: 20px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.KnowledgeSmall {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative; left: 50px; top: 40px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.Ability {
+    position: relative;
+    display: inline-block;
+    width: 1300px;
+    height: 600px;
+    background-color: #353535;
+    border-radius: 35px;
+    margin-left: 100px;
+    top: -225px;
+    background: linear-gradient(170deg,#74638C, #2A0064);
+    overflow: hidden;
+    opacity: 0;
+}
+.AbilityHead {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    position: relative; left: 50px; top: 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.AbilityMiddle {
+    font-size: 80px;
+    font-weight: 1000;
+    color: white;
+    position: relative; left: 50px; top: 20px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.AbilitySmall {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative; left: 50px; top: 50px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.Future_1 {
+    position: relative;
+    width: 700px;
+    height: 350px;
+    background: linear-gradient(130deg,#00D68F,#6A1FB9);
+    border-radius: 35px;
+    margin-left: 100px;
+    top: -225px;
+    opacity: 0;
+}
+.FirstjobHead {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    position: relative; left: 40px; top: 30px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.FirstjobMiddle {
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    position: relative; left: 40px; top: 20px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.FirstjobSmall {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative; left: 40px; top: 50px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.Future_2 {
+    position: relative;
+    width: 700px;
+    height: 350px;
+    background: linear-gradient(to right,#00D68F,#6A1FB9);
+    border-radius: 35px;
+    margin-left: 100px;
+    top: -225px;
+    opacity: 0;
+}
+.SecondjobHead {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    position: relative; left: 40px; top: 30px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.SecondjobMiddle {
+    font-size: 65px;
+    font-weight: 1000;
+    color: white;
+    position: relative; left: 40px; top: 20px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.SecondjobSmall {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative; left: 40px; top: 50px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.Future_3 {
+    position: relative;
+    width: 700px;
+    height: 350px;
+    background: linear-gradient(45deg,#00D68F,#6A1FB9);
+    border-radius: 35px;
+    margin-left: 100px;
+    top: -225px;
+    opacity: 0;
+}
+.ThirdjobHead {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    position: relative; left: 40px; top: 30px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.ThirdjobMiddle {
+    font-size: 65px;
+    font-weight: 1000;
+    color: white;
+    position: relative; left: 40px; top: 20px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.ThirdjobSmall {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: white;
+    position: relative; left: 40px; top: 50px;
+    margin: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+@keyframes slidefade {
+    from {
+        top: 400px;
+        opacity: 0;
+    }
+    to {
+        top: 250px;
+        opacity: 1;
+    }
+}
+@keyframes fadedown {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.1;
+    }
+}
+@keyframes fadeup {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes disappear {
+    from {
+        top: 250px;
+        opacity: 1;
+    }
+    to {
+        top: 400px;
+        opacity: 0;
+    }
+}
+
+@keyframes fade0 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes fade1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes macin {
+    from {
+        left: 1000px;
+    }
+    to {
+        left: 700px;
+    }
+}
+@keyframes macout {
+    from {
+        left: 700px;
+    }
+    to {
+        left: 1000px;
+    }
+}
+
+@keyframes leftin {
+    from {
+        left: -100px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes leftout {
+    from {
+        left: 0px;
+        opacity: 1;
+    }
+    to {
+        left: -100px;
+        opacity: 0;
+    }
+}
+@keyframes descup {
+    from {
+        top: 200px;
+        opacity: 0;
+    }
+    to {
+        top: 100px;
+        opacity: 1;
+    }
+}
+
+@keyframes descdown {
+    from {
+        top: 100px;
+        opacity: 1;
+    }
+    to {
+        top: 200px;
+        opacity: 0;
+    }
+}
+
+span {
+    display: block;
+    position: relative;
+    background-size: 100% 300%;
+    background-position-y: 0%;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(
+      180deg,
+      #ffb6ff,
+      #b344ff 10%,
+      #ae38ff 33%,
+      #ffb6ff 45%,
+      #ffe3ff 50%,
+      #ffb6ff 66%,
+      #b344ff
+    );
+  }
+  @keyframes gradientup {
+    from {
+      background-position-y: 0%;
+    }
+    to {
+      background-position-y: 100%;
+    }
+  }
+  @keyframes gradientdown {
+    from {
+      background-position-y: 0%;
+    }
+    to {
+      background-position-y: 100%;
+    }
+  }
